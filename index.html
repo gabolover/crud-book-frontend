@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form class="form">
+      <label for="name">Ingrese el nombre del libro</label>
+      <input type="text" name="name" id="name" />
+
+      <label for="author">Ingrese el nombre del autor del libro</label>
+      <input type="text" name="author" id="author" />
+
+      <label for="pagesQuantity">Ingrese la cantidad de Hojas del libro</label>
+      <input type="number" name="pagesQuantity" id="pagesQuantity" />
+
+      <label for="image">Seleccione la imagen a cargar</label>
+      <input type="file" name="image" id="image" />
+
+      <br />
+      <img id="imagePreview" class="preview" alt="Vista previa de la imagen" />
+
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <form class="searchForm">
+      <input type="text" placeholder="Buscar imagen" class="searchInput" />
+      <input type="submit" value="Buscar" />
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>

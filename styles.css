@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  margin: 0 auto;
+  height: 50vh;
+  justify-content: space-around;
+}
+
+label {
+  color: beige;
+}
+input {
+  height: 25px;
+  transition: 1s;
+}
+
+input:hover,
+input:focus {
+  outline: none; /* Opcional: para eliminar el contorno predeterminado */
+  color: white;
+  background-color: darkslateblue;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+.preview {
+  display: none;
+}
+
+.show {
+  display: block;
+}
